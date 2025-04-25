@@ -25,13 +25,11 @@ arxiv-markdown/
 │   ├── __init__.py           # Makes utils a proper package
 │   ├── storage.py            # Cloud storage functions for R2
 │   ├── conversion.py         # Document conversion utilities
-│   ├── processor.py          # Main processor class
-│   └── config.py             # Configuration constants
+│   └── processor.py          # Main processor class
 │
 ├── data/                     # Data directory
 │   ├── checkpoints/          # Processing checkpoints
-│   ├── jsonls/               # Processed JSON line files
-│   └── arxiv_md/             # Output markdown files
+│   └── jsonls/               # Processed JSON line files
 │
 ├── scripts/                  # Additional utility scripts
 │   └── create_dataset.py     # Dataset creation and upload script
