@@ -7,7 +7,7 @@ from docling.datamodel.base_models import InputFormat
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling_core.types.doc import ImageRefMode, PictureItem
-from storage import upload_to_r2
+from utils.storage import upload_to_r2
 
 IMAGE_RESOLUTION_SCALE = 2.0
 
